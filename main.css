@@ -1,10 +1,68 @@
+html {
+	background-color: #ededed;
+}
+
+body {
+	font-family: Open Sans, Arial, sans-serif !important;
+	background-color: #ffffff;
+}
+
+p {
+	font-size: 0.9375em;
+}
+
 .banner {
 	background: url('http://www.insidesales.com/images/LEADERSHIP_KEN-HEADER.jpg');
 	background-repeat: no-repeat;
 	height: 430px;
 	color: #ffffff;
+	border-bottom: 5px solid #e9310e;
+}
+
+h1 {
+	font-size: 3.125em;
+	font-weight: 200;
+}
+
+.banner h1 {
+	margin: 294px 0 18px 70px;
 }
 
 .bio {
-	margin: 30px 20px;
+	margin: 30px 10px;
+	width: 260px;
+	background-color: #ededed;
+}
+
+.summary p {
+	margin: 44px 70px 6px 70px;
+}
+
+.leadership {
+	margin: 0 60px;
+}
+
+.gray {
+	color: #ffffff;
+	background-color: #434b4d;
+	padding-left: 13px;
+	padding-bottom: 10px;
+}
+
+.gray h2 {
+	margin-top: -4px;
+	margin-bottom: 0px;
+	padding-top: 17px; 
+}
+
+.gray p {
+	margin: 0;
+}
+
+@media (min-width: 960px) {
+	body {
+		width: 960px;
+		margin: 0 auto;
+		box-shadow: 0px 0px 4px #888888;
+	}
 }
