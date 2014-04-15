@@ -1,0 +1,10 @@
+.banner {
+	background: url('http://www.insidesales.com/images/LEADERSHIP_KEN-HEADER.jpg');
+	background-repeat: no-repeat;
+	height: 430px;
+	color: #ffffff;
+}
+
+.bio {
+	margin: 30px 20px;
+}
